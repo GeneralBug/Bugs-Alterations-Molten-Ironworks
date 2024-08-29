@@ -1,0 +1,43 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "molten_metals:slag"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:cobblestone",
+      "chance": 0.25
+    },
+    {
+      "item": "minecraft:flint",
+      "chance": 0.25
+    },
+    {
+      "item": "minecraft:gold_nugget",
+      "chance": 0.05
+    },
+    {
+      "item": "create:copper_nugget",
+      "chance": 0.05
+    },
+    {
+      "item": "create:zinc_nugget",
+      "chance": 0.05
+    },
+    {
+      "item": "minecraft:iron_nugget",
+      "chance": 0.05
+    },
+	{
+      "item": "create_ironworks:tin_nugget",
+      "chance": 0.05
+    },
+    {
+      "item": "create:experience_nugget",
+      "chance": 0.05
+    }
+  ],
+  "processingTime": 500
+}

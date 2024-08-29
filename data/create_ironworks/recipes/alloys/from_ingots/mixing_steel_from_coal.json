@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "molten_metals:molten_iron",
+      "amount": 6000
+    },
+    {
+		"item": "create_ironworks:coal_dust"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "molten_metals:molten_steel",
+      "amount": 3000
+    }
+  ],
+  "heatRequirement": "superheated"
+}
