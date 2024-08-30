@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "create_ironworks:steel_ingot",
+		"create_ironworks:tin_ingot",
+		"create_ironworks:bronze_ingot"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+	"fabric:load_conditions": [
+        {
+           "condition": "fabric:all_mods_loaded",
+           "values": [
+             "create_dd"
+           ]
+         }
+       ],
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "molten_metals:molten_bronze_ceramic_ingot_mold"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_dd:bronze_ingot"
+    },
+    {
+	  "chance": 0.80,
+      "item": "molten_metals:ceramic_ingot_mold"
+    }
+  ]
+}
