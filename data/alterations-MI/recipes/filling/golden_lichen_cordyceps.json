@@ -1,0 +1,28 @@
+{  
+	"fabric:load_conditions": 
+	[
+		{
+			"condition": "fabric:all_mods_loaded",
+			"values": 
+				[
+					"galosphere"
+				]
+		}
+	],
+    "type": "create:filling",
+    "ingredients": [
+      {
+        "item": "galosphere:lichen_cordyceps"
+      },
+      {
+
+        "fluid": "createmetalwork:molten_gold",
+		"amount": 8000
+      }
+    ],
+    "results": [
+      {
+        "item": "galosphere:golden_lichen_cordyceps"
+      }
+    ]
+  }
