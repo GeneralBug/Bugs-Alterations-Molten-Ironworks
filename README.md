@@ -1,4 +1,4 @@
-# Molten Ironworks Changes
+# Alterations - Molten Ironworks
 A datapack that makes some changes to the Fabric versions of [Create: Molten Metals](https://modrinth.com/mod/create-molten-metals) and [Create: Ironworks](https://modrinth.com/mod/create-ironworks), including:
  - Brass, bronze, steel, and netherite can now only be crafted with the molten alloying recipes
  - Steel ratio is 2 iron : 3 coal (6 charcoal) : 1 steel
