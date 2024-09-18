@@ -1,0 +1,41 @@
+{
+	"fabric:load_conditions": 
+	[
+		{
+			"condition": "fabric:all_mods_loaded",
+			"values": 
+			[
+				"pigsteel"
+			]
+		}
+	],
+	"type": "create:crushing",
+	"ingredients": 
+	[
+		{
+			"item": "pigsteel:porkslag"
+		}
+	],
+	"results": 
+	[
+		{
+			"item": "pigsteel:pigsteel_chunk",
+			"count": 5,
+			"chance": 1
+		},
+		{
+			"item": "pigsteel:pigsteel_chunk",
+			"count": 4,
+			"chance": 0.5
+		},
+		{
+			"item": "create:crushed_raw_iron",
+			"chance": 0.1
+		},
+		{
+			"item": "create:experience_nugget",
+			"chance": 0.50
+		}
+	],
+	"processingTime": 500
+}

@@ -1,0 +1,35 @@
+{
+	"fabric:load_conditions": 
+	[
+		{
+			"condition": "fabric:all_mods_loaded",
+			"values": 
+			[
+				"createbigcannons"
+			]
+		},	
+		{
+			"condition": "fabric:tags_populated",
+			"values": 
+			[
+				"molten_metals:meltable_bronze"
+			]
+		}
+	],
+	"type": "createbigcannons:melting",
+	"heatRequirement": "heated",
+	"ingredients": 
+	[
+		{
+			"tag": "molten_metals:meltable_bronze"
+		}
+	],
+	"processingTime": 90,
+	"results": 
+	[
+		{
+			"amount": 9000,
+			"fluid": "molten_metals:molten_bronze"
+		}
+	]
+}

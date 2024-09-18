@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": 
+	[
+		{
+			"id": "molten_metals:molten_iron",
+			"required": false
+		}
+    ]
+}

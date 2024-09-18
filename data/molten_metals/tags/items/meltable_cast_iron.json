@@ -1,0 +1,14 @@
+{
+	"replace": false,
+	"values": 
+	[
+		{
+			"id": "create_dd:industrial_iron_ingot",
+			"required": false
+		},
+		{
+			"id": "createbigcannons:cast_iron_ingot",
+			"required": true
+		}
+	]
+}

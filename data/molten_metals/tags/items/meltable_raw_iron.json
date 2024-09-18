@@ -1,0 +1,14 @@
+{
+    "replace": false,
+    "values": 
+	[
+		{
+			"id": "pigsteel:pigsteel_chunk_block",
+			"required": false
+		},
+		{
+			"id": "pigsteel:porkslag",
+			"required": false
+		}
+    ]
+}

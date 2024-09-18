@@ -1,0 +1,36 @@
+{
+	"fabric:load_conditions": 
+	[
+		{
+			"condition": "fabric:all_mods_loaded",
+			"values": 
+			[
+				"createbigcannons",
+				"spelunkery"
+			]
+		},		
+		{
+			"condition": "fabric:tags_populated",
+			"values": 
+			[
+				"molten_metals:meltable_mercury_blocks"
+			]
+		}
+	],
+	"type": "createbigcannons:melting",
+	"heatRequirement": "heated",
+	"ingredients": 
+	[
+		{
+			"tag": "molten_metals:meltable_mercury_blocks"
+		}
+	],
+	"processingTime": 810,
+	"results": 
+	[
+		{
+			"amount": 81000,
+			"fluid": "molten_metals:molten_mercury"
+		}
+	]
+}

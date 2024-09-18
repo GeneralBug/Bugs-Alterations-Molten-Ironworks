@@ -6,7 +6,7 @@
       },
       {
 
-        "fluid": "molten_metals:molten_gold",
+        "fluidTag": "c:molten_gold",
 		"amount": 72000
       }
     ],

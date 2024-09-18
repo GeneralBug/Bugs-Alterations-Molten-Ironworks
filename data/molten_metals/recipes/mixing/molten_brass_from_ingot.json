@@ -1,0 +1,28 @@
+{
+	"fabric:load_conditions": 
+	[
+		{
+			"condition": "fabric:all_mods_loaded",
+			"values": 
+			[
+				"createbigcannons"
+			]
+		}
+	],
+	"type": "createbigcannons:melting",
+	"heatRequirement": "heated",
+	"ingredients": 
+	[
+		{
+			"tag": "molten_metals:meltable_brass"
+		}
+	],
+	"processingTime": 90,
+	"results": 
+	[
+		{
+			"amount": 9000,
+			"fluid": "molten_metals:molten_brass"
+		}
+	]
+}

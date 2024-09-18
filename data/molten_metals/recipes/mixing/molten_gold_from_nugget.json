@@ -1,0 +1,28 @@
+{
+	"fabric:load_conditions": 
+	[
+		{
+			"condition": "fabric:all_mods_loaded",
+			"values": 
+			[
+				"createbigcannons"
+			]
+		}
+	],
+	"type": "createbigcannons:melting",
+	"heatRequirement": "heated",
+	"ingredients": 
+	[
+		{
+			"tag": "molten_metals:meltable_gold_nuggets"
+		}
+	],
+	"processingTime": 10,
+	"results": 
+	[
+		{
+			"amount": 1000,
+			"fluid": "molten_metals:molten_gold"
+		}
+	]
+}

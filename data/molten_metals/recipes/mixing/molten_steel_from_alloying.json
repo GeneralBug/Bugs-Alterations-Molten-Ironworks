@@ -1,0 +1,34 @@
+{
+	"fabric:load_conditions": 
+	[
+		{
+			"condition": "fabric:all_mods_loaded",
+			"values": 
+			[
+				"createbigcannons"
+			]
+		}
+	],
+	"type": "create:mixing",
+	"ingredients": 
+	[
+		{
+			"fluidTag": "c:molten_cast_iron",
+			"amount": 18000
+		},
+		{
+			"tag": "c:coal_dust"
+		},
+		{
+			"tag": "c:coal_dust"
+		}
+	],
+	"results": 
+	[
+		{
+		"fluid": "molten_metals:molten_steel",
+		"amount": 9000
+		}
+	],
+	"heatRequirement": "superheated"
+}

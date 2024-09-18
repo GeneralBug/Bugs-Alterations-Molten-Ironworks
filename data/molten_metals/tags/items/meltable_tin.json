@@ -1,6 +1,10 @@
 {
     "replace": false,
-    "values": [
-		"create_ironworks:tin_ingot"
+    "values": 
+	[
+		{
+			"id": "create_ironworks:tin_ingot",
+			"required": false
+		}
     ]
 }

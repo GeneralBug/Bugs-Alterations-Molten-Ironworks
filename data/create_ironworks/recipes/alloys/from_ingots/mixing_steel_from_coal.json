@@ -1,25 +1,12 @@
 {
-  "type": "create:mixing",
-  "ingredients": [
-    {
-      "fluid": "molten_metals:molten_iron",
-      "amount": 18000
-    },
-    {
-		"item": "create_ironworks:coal_dust"
-    },
-    {
-		"item": "create_ironworks:coal_dust"
-    },
-    {
-		"item": "create_ironworks:coal_dust"
-    }
-  ],
-  "results": [
-    {
-      "fluid": "molten_metals:molten_steel",
-      "amount": 9000
-    }
-  ],
-  "heatRequirement": "superheated"
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "minecraft:barrier"
+      }
+    ],
+    "result":
+	{
+		"item": "minecraft:barrier"
+	}
 }

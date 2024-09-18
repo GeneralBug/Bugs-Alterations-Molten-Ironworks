@@ -1,6 +1,7 @@
 {
   "replace": false,
-  "values": [
+  "values": 
+  [
     {
       "id": "create_ironworks:bronze_ingot",
       "required": false

@@ -1,0 +1,22 @@
+{
+    "replace": false,
+    "values": 
+	[
+		{
+			"id": "create_ironworks:raw_tin",
+			"required": false
+		},		
+		{
+			"id": "create_ironworks:crushed_raw_tin",
+			"required": false
+		},
+		{
+			"id": "create_ironworks:tin_ore",
+			"required": false
+		},
+		{
+			"id": "create_ironworks:deepslate_tin_ore",
+			"required": false
+		}
+    ]
+}

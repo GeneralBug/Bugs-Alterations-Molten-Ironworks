@@ -1,0 +1,22 @@
+{
+	"fabric:load_conditions": 
+	[
+		{
+			"condition": "fabric:all_mods_loaded",
+			"values": 
+			[
+				"createbigcannons"
+			]
+		}
+	],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "minecraft:barrier"
+      }
+    ],
+    "result":
+	{
+		"item": "minecraft:barrier"
+	}
+}

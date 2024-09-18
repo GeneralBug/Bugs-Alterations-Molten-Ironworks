@@ -1,0 +1,31 @@
+{
+	"fabric:load_conditions": 
+	[
+		{
+			"condition": "fabric:all_mods_loaded",
+			"values": 
+			[
+				"createbigcannons"
+			]
+		}
+	],
+	"type": "createbigcannons:melting",
+	"heatRequirement": "heated",
+	"ingredients": 
+	[
+		{
+			"tag": "molten_metals:meltable_raw_copper"
+		}
+	],
+	"processingTime": 90,
+	"results": 
+	[
+		{
+			"amount": 9000,
+			"fluid": "molten_metals:molten_copper"
+		},
+		{
+			"item":"molten_metals:slag"
+		}
+	]
+}

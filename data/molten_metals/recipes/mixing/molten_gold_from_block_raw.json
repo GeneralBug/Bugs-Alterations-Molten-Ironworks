@@ -1,0 +1,31 @@
+{
+	"fabric:load_conditions": 
+	[
+		{
+			"condition": "fabric:all_mods_loaded",
+			"values": 
+			[
+				"createbigcannons"
+			]
+		}
+	],
+	"type": "createbigcannons:melting",
+	"heatRequirement": "heated",
+	"ingredients": 
+	[
+		{
+			"tag": "molten_metals:meltable_raw_gold_blocks"
+		}
+	],
+	"processingTime": 810,
+	"results": 
+	[
+		{
+			"amount": 81000,
+			"fluid": "molten_metals:molten_gold"
+		},
+		{
+			"item": "molten_metals:slag_block"
+		}
+	]
+}
