@@ -3,7 +3,7 @@ A datapack that makes some changes to the Fabric versions of [Create: Molten Met
  - All melting recipes now use the Big Cannons foundary
  - Alloys (including netherite) can now only be made using molten metal
  - Fixed the broken tin recipes from Ironworks
- - Adjusted slag drops, including adding tin and XP nuggets, and increased all the nugget drops from 1% to 5%
+ - Adjusted slag drops, including adding tin and XP nuggets (lead if you have Oreganized), and increased all the nugget drops from 1% to 5%
  - Added spout recipes for gold foods
 
 [Modrinth page](https://modrinth.com/datapack/molten-ironworks-changes)
