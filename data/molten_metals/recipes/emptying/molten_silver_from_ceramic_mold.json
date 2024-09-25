@@ -1,0 +1,29 @@
+{
+	"fabric:load_conditions": 
+	[
+		{
+			"condition": "fabric:tags_populated",
+			"values": 
+			[
+				"molten_metals:meltable_silver"
+			]
+		}
+	],
+	"type": "create:emptying",
+	"ingredients": 
+	[
+		{
+			"item": "molten_metals:molten_silver_ceramic_ingot_mold"
+		}
+	],
+	"results": 
+	[
+		{
+			"item": "molten_metals:ceramic_ingot_mold"
+		},
+		{
+			"fluid": "molten_metals:molten_silver",
+			"amount": 9000
+		}
+	]
+}

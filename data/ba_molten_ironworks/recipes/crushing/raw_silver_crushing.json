@@ -1,0 +1,32 @@
+{
+	"fabric:load_conditions": 
+	[
+		{
+			"condition": "fabric:tags_populated",
+			"values": 
+			[
+				"c:silver_ingots"
+			]
+		}
+	],
+	"type": "create:crushing",
+	"ingredients": 
+	[
+		{
+			"tag": "c:raw_silver"
+		}
+	],
+	"results": 
+	[
+		{
+			"item": "create:crushed_raw_silver",
+			"count": 1,
+			"chance": 1
+		},
+		{
+			"item": "create:experience_nugget",
+			"chance": 0.75
+		}
+	],
+	"processingTime": 500
+}

@@ -5,7 +5,8 @@
 			"condition": "fabric:all_mods_loaded",
 			"values": 
 			[
-				"createbigcannons"
+				"createbigcannons",
+				"oreganized"
 			]
 		},	
 		{
@@ -29,7 +30,7 @@
 	[
 		{
 			"amount": 9000,
-			"fluid": "molten_metals:molten_lead"
+			"fluid": "oreganized:molten_lead"
 		}
 	]
 }
