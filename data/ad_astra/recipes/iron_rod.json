@@ -1,0 +1,23 @@
+{
+    "fabric:load_conditions": 
+    [
+      {
+        "condition": "fabric:all_mods_loaded",
+        "values": 
+        [
+          "createaddition",
+          "ad_astra"
+        ]
+      }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "minecraft:barrier"
+      }
+    ],
+    "result":
+	{
+		"item": "minecraft:barrier"
+	}
+}

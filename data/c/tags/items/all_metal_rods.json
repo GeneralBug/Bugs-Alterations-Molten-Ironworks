@@ -1,0 +1,18 @@
+{
+    "replace": false,
+    "values": 
+	[
+		{
+			"id":"ad_astra:iron_rod",
+			"required":false
+		},
+		{
+			"id":"ad_astra:steel_rod",
+			"required":false
+		},
+		{
+			"id":"ad_astra:etrium_rod",
+			"required":false
+		}
+    ]
+}

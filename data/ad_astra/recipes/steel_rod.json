@@ -1,0 +1,23 @@
+{
+	"fabric:load_conditions": 
+    [
+      {
+        "condition": "fabric:all_mods_loaded",
+        "values": 
+        [
+          "createaddition",
+		  "ad_astra"
+        ]
+      }
+    ],
+	"type":"createaddition:rolling",
+	"input": 
+	{
+      	"tag": "c:steel_ingots"
+	},
+	"result": 
+	{
+		"item": "ad_astra:steel_rod",
+		"count": 2
+	}
+}
